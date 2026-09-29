@@ -1,12 +1,14 @@
 # NeuPAN ROS2
 
+[简体中文](README_cn.md) · [English](README.md) · [工作空间指南](../../docs/PROJECT_GUIDE.zh-CN.md)
+
 <a href="https://ieeexplore.ieee.org/abstract/document/10938329"><img src='https://img.shields.io/badge/PDF-IEEE-brightgreen' alt='PDF'></a>
 <a href="https://arxiv.org/pdf/2403.06828.pdf"><img src='https://img.shields.io/badge/PDF-Arxiv-brightgreen' alt='PDF'></a>
 <a href="https://youtu.be/SdSLWUmZZgQ"><img src='https://img.shields.io/badge/Video-Youtube-blue' alt='youtube'></a>
 <a href="https://www.bilibili.com/video/BV1Zx421y778/?vd_source=cf6ba629063343717a192a5be9fe8985"><img src='https://img.shields.io/badge/Video-Bilibili-blue' alt='youtube'></a>
 <a href="https://hanruihua.github.io/neupan_project/"><img src='https://img.shields.io/badge/Website-NeuPAN-orange' alt='website'></a>
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/humble/)
-[![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](../../LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10+-green.svg)](https://www.python.org/)
 
 **中文版** | [**English**](README.md)
@@ -382,7 +384,7 @@ NeuPAN ROS2 采用线程安全的多线程架构，在多核系统上实现最�
 
 ## 📄 开源协议
 
-本项目采用 [GNU General Public License v3.0](LICENSE) 协议开源。
+本项目采用 [GNU General Public License v3.0](../../LICENSE) 协议开源。
 
 ---
 

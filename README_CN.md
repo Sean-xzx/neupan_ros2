@@ -1,5 +1,8 @@
 # NeuPAN ROS2 Workspace
 
+> **关于本派生仓库：**这是 [Sean-xzx 的派生仓库](https://github.com/Sean-xzx/neupan_ros2)。下文保留原项目作者、论文引用和致谢。先阅读 [中文仓库指南](docs/PROJECT_GUIDE.zh-CN.md) 或 [English guide](docs/PROJECT_GUIDE.md)，了解仓库结构及源码子模块。
+
+
 <div align="center">
 
 <a href="https://ieeexplore.ieee.org/abstract/document/10938329"><img src='https://img.shields.io/badge/PDF-IEEE-brightgreen' alt='PDF'></a>
@@ -54,7 +57,7 @@
 
 ```bash
 # 克隆工作空间
-git clone https://github.com/KevinLADLee/neupan_ros2.git
+git clone --recurse-submodules https://github.com/Sean-xzx/neupan_ros2.git
 cd neupan_ros2
 
 # 运行安装脚本（仅安装 ROS2 和 C++ 依赖）
@@ -173,7 +176,7 @@ colcon build --packages-select ddr_minimal_sim
 
 ### 持续集成
 
-[![ROS2 CI](https://github.com/KevinLADLee/neupan_ros2/actions/workflows/ros2-ci.yml/badge.svg)](https://github.com/KevinLADLee/neupan_ros2/actions/workflows/ros2-ci.yml)
+[![ROS2 CI](https://github.com/Sean-xzx/neupan_ros2/actions/workflows/ros2-ci.yml/badge.svg)](https://github.com/Sean-xzx/neupan_ros2/actions/workflows/ros2-ci.yml)
 
 每次推送和拉取请求时自动测试：
 

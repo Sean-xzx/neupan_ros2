@@ -1,5 +1,8 @@
 # NeuPAN ROS2 Workspace
 
+> **About this fork:** This repository is [Sean-xzx's fork](https://github.com/Sean-xzx/neupan_ros2) of the NeuPAN ROS 2 workspace. The original authorship, citation, and acknowledgments below are preserved. Start with the [English repository guide](docs/PROJECT_GUIDE.md) or [中文使用指南](docs/PROJECT_GUIDE.zh-CN.md) for a map of this fork and its submodule.
+
+
 <div align="center">
 
 <a href="https://ieeexplore.ieee.org/abstract/document/10938329"><img src='https://img.shields.io/badge/PDF-IEEE-brightgreen' alt='PDF'></a>
@@ -54,7 +57,7 @@
 
 ```bash
 # Navigate to workspace root
-git clone https://github.com/KevinLADLee/neupan_ros2.git
+git clone --recurse-submodules https://github.com/Sean-xzx/neupan_ros2.git
 cd neupan_ros2
 
 # Run setup script (installs ROS2 and C++ dependencies only)
@@ -174,7 +177,7 @@ colcon build --packages-select ddr_minimal_sim
 
 ### Continuous Integration
 
-[![ROS2 CI](https://github.com/KevinLADLee/neupan_ros2/actions/workflows/ros2-ci.yml/badge.svg)](https://github.com/KevinLADLee/neupan_ros2/actions/workflows/ros2-ci.yml)
+[![ROS2 CI](https://github.com/Sean-xzx/neupan_ros2/actions/workflows/ros2-ci.yml/badge.svg)](https://github.com/Sean-xzx/neupan_ros2/actions/workflows/ros2-ci.yml)
 
 Automated testing on every push and pull request:
 
@@ -235,7 +238,7 @@ This maintains consistency with [NeuPAN-ROS](https://github.com/hanruihua/neupan
 
 ### Contributing
 
-Contributions welcome! Submit issues or pull requests on [GitHub](https://github.com/KevinLADLee/neupan_ros2).
+Contributions welcome! Submit issues or pull requests for this fork on [GitHub](https://github.com/Sean-xzx/neupan_ros2).
 
 ### Acknowledgments
 

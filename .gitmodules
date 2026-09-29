@@ -1,0 +1,3 @@
+[submodule "src/NeuPAN"]
+	path = src/NeuPAN
+	url = https://github.com/hanruihua/NeuPAN.git

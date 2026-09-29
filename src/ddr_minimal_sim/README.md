@@ -1,5 +1,7 @@
 # DDR Minimal Sim
 
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 > **Part of [NeuPAN ROS2 Workspace](../../README.md)** → `neupan_ros2_ws` > `neupan_ros2` > `ddr_minimal_sim`
 
 A lightweight differential-drive robot (DDR) simulator for ROS2, designed for rapid prototyping and testing of navigation algorithms.

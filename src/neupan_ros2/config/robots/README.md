@@ -1,5 +1,7 @@
 # NeuPAN Multi-Robot Configuration
 
+[Workspace guide](../../../../docs/PROJECT_GUIDE.md) · [中文使用指南](../../../../docs/PROJECT_GUIDE.zh-CN.md)
+
 This directory contains robot-specific configurations for NeuPAN. Each robot has its own subdirectory with all necessary configuration files and models.
 
 ## Directory Structure

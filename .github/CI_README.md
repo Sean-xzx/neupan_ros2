@@ -1,5 +1,7 @@
 # GitHub Actions CI/CD
 
+[Workspace guide](../docs/PROJECT_GUIDE.md) · [中文使用指南](../docs/PROJECT_GUIDE.zh-CN.md)
+
 This repository uses GitHub Actions for continuous integration and deployment.
 
 ## Workflows
